@@ -2,7 +2,7 @@ import socket
 
 IP = "127.0.0.1"
 PORT = 20888
-SAVEFILEPATH = "./test_data/data_20241121_testing.bin"
+SAVEFILEPATH = "./test_data/data_20241122_a2japan_testing.bin"
 
 def write_bytedata_to_file(data:bytes, filepath:str=None):
     if filepath is None:
